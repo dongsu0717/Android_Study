@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NewsTalk"
 include(":app")
- 
+include(":build-logic")
