@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dongsu.newstalk"
+    namespace = "com.dongsu.newstalk.feature.main"
     compileSdk = 34
 
     defaultConfig {
@@ -30,9 +30,28 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
 }
 
 dependencies {
+    implementation(project(":core:designsystem"))
+    implementation(project(":feature:home"))
+
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.ui.graphics)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.activity.compose)
+
+    implementation(libs.androidx.ui)
+    implementation(libs.androidx.ui.tooling)
+
+    //option - preview
+    implementation(libs.androidx.ui.tooling.preview)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

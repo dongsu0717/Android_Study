@@ -1,4 +1,5 @@
-package com.dongsu.newstalk.ui.theme
+package com.dongsu.newstalk.core.designsystem.theme
+
 
 import android.app.Activity
 import android.os.Build
