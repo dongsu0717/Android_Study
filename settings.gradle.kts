@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -21,4 +22,21 @@ dependencyResolutionManagement {
 
 rootProject.name = "NewsTalk"
 include(":app")
- 
+
+include(":core:data")
+include(":core:data-api")
+include(":core:designsystem")
+include(":core:domain")
+include(":core:model")
+include(":core:navigation")
+include(":core:datastore")
+include(":core:database")
+include(":core:network")
+include(":core:ui")
+
+include(":feature:main")
+include(":feature:home")
+include(":feature:setting")
+include(":feature:bookmark")
+include(":feature:mypage")
+include(":feature:home-favorite")

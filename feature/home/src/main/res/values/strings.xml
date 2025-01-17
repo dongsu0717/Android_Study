@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all_news">전체 뉴스</string>
+    <string name="my_favorite_news">관심 뉴스</string>
+</resources>
