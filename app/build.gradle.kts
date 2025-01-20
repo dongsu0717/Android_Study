@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dongsu.newstalk"
+    namespace = "com.dongsu.androidstudy"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dongsu.newstalk"
+        applicationId = "com.dongsu.androidstudy"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
