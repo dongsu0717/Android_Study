@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NewsTalk"
+rootProject.name = "AndroidStudy"
 include(":app")
 
 include(":core:data")
