@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dongsu.newstalk.core.designsystem"
+    namespace = "com.dongsu.androidstudy.core.designsystem"
     compileSdk = 34
 
     defaultConfig {

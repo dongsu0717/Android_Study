@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dongsu.newstalk.feature.home"
+    namespace = "com.dongsu.androidstudy.feature.home"
     compileSdk = 34
 
     defaultConfig {
