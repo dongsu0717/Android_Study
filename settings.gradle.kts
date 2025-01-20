@@ -24,7 +24,6 @@ rootProject.name = "NewsTalk"
 include(":app")
 
 include(":core:data")
-include(":core:data-api")
 include(":core:designsystem")
 include(":core:domain")
 include(":core:model")
