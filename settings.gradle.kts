@@ -35,7 +35,3 @@ include(":core:ui")
 
 include(":feature:main")
 include(":feature:home")
-include(":feature:setting")
-include(":feature:bookmark")
-include(":feature:mypage")
-include(":feature:home-favorite")
