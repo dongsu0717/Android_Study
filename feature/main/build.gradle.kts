@@ -44,20 +44,25 @@ dependencies {
     implementation(project(":core:designsystem"))
     implementation(project(":feature:home"))
 
+    //Common
+    implementation(libs.androidx.core.ktx)
+
+    //Compose
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.activity.compose)
-
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.tooling)
-
-    //option - preview
     implementation(libs.androidx.ui.tooling.preview)
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
+    //XML
     implementation(libs.material)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
+
+    //Test
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
